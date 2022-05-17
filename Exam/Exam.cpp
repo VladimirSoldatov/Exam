@@ -1,10 +1,10 @@
 ﻿#include <iostream>
 using namespace std;
-void TriAngle_1();
+
 int main()
 {
+    //Реализовать все функции в Main
 
-    TriAngle_1();
     return 0;
 }
 void initInt()
@@ -33,7 +33,7 @@ void initMassive()
 }
 void viewMassive()
 {
-   // создать массив и вывести его на экран
+   // создать массив и вывести его на экран. Входные параметры - длина массива в int.
 }
 int sum(int a, int b) 
 {
@@ -55,69 +55,16 @@ void ifElse()
 }
 void WhileDo()
 {
-    //вывести через знак табуляции ряд 10 случайных чисел
+    //вывести через знак табуляции ряд 10 случайных чисел. На входе массив int из 10 элементов
 }
 void TwiceFor()
 {
     //создать двумерный массив 10 на 10 и заполниить его числами от 0 до 9, увиеличивая значение на 1 для каждой новой строчки
-    //вывести указанный массив на экран
+    //вывести указанный массив на экран. 
 }
-void TriAngle_1()
+void search()
 {
-    for (int i = 0; i < 10; i++)
-    {
-     
-        for (int j = 0; j < 10 - i; j++)
-        {
-            if (i < 5)
-                cout << " ";
-            else 
-            cout << "*";
-
-        }
-        cout << endl;
-    }
-    for (int i = 0; i < 10; i++)
-    {
-
-        for (int j = 0; j < i; j++)
-        {
-            if (i > 5)
-                cout << " ";
-            else
-            cout << "*";
-
-        }
-        cout << endl;
-    }
-
-    for (int i = 0; i < 10; i++)
-    {
-
-        for (int j = 0; j < 10 - i; j++)
-        {
-            if (j > 5)
-                cout << " ";
-            else
-                cout << "*";
-
-        }
-        cout << endl;
-    }
-    for (int i = 0; i < 10; i++)
-    {
-
-        for (int j = 0; j < i; j++)
-        {
-            if (i> 5 || j >5)
-                cout << " ";
-            else
-                cout << "*";
-
-        }
-        cout << endl;
-    }
-   
+//создать функцию - шаблон для поиска в int/float/char массиве из 10 элементов целого / дробного  числа или символа. 
 }
 
 
